@@ -1,1 +1,3 @@
-# landing_page_project
+# Landing page project
+
+## Simple landing page built
