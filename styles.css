@@ -88,15 +88,10 @@ button.rounded{
     display: flex;
     flex-direction: column;
 }
+
 .info-box{
     gap: 16px;
-    padding: 10px 70px;
-}
-@media screen and (min-width: 900px) {
-    .info-box{
-        gap: 16px;
-        padding: 10px 130px;
-    }
+    padding: 10px 130px;
 }
 .info-box>h3{
     text-align: center;
@@ -130,19 +125,12 @@ button.rounded{
     font-style: italic;
 }
 .testimonial.section{
+    padding: 60px 320px;
+    font-size: 36px;
     margin-top: 32px;
-    padding: 35px 100px;
     background-color: #e5e7eb;
     gap: 20px;
-    font-size: 24px;
-}
-@media screen and (min-width: 900px) {
-    .testimonial.section{
-        padding: 60px 320px;
-        font-size: 36px;
-
     }
-}
 .testimonial{
     display: flex;
     flex-direction: column;
@@ -152,14 +140,10 @@ article>sub{
     font-size: 16px;
 }
 /* Call to action Section */
-@media screen and (min-width: 900px) {
-    .section{
-        padding:10px 200px;
-    }
-}
+
 section.section{
     background-color: #f9faf8;
-    padding: 60px 150px;
+    padding:10px 200px;
 }
 .cta{
     margin: 30px 0px;
